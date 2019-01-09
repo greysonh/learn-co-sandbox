@@ -1,4 +1,4 @@
 function getIss() {
   const issInfo = fetch("http://api.open-notify.org/astros.json");
-  console.log(issInfo.then(response => response.json()));
+  console.log(issInfo);
 }
